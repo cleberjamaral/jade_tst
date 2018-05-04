@@ -1,7 +1,1 @@
-# tp_cnp
-A Jason Multi Agent System didactic implementation of FIPA Contract Net Interaction Protocol Specification.
-
-This project follows the instructions of challange: http://jomi.das.ufsc.br/mas/tp/tp-cnp.pdf which ask to develop a MAS having "n" (between 1 and 200) initiator agents, "m" (1 to 50) participants. Each initiator must hire simultaneously "i" (1 to 10) services. The prices and conditions of the offer should be defined by the develoer.
-
-FIPA contract protocol is defined in the document http://www.fipa.org/specs/fipa00029/SC00029H.pdf. 
-Mainly (by words of referred document): The FIPA Contract Net Interaction Protocol (IP) is a minor modification of the original contract net IP pattern in that it adds rejection and confirmation communicative acts. In the contract net IP, one agent (the Initiator) takes the role of manager which wishes to have some task performed by one or more other agents (the Participants) and further wishes to optimise a function that characterizes the task. This characteristic is commonly expressed as the price, in some  domain specific way, but could also be soonest time to completion, fair distribution of tasks, etc. For a given task, any number of the Participants may respond with a proposal; the rest must refuse. Negotiations then continue with the Participants that proposed.  The representation of this IP is given in Figure 1 which is based on extensions to UML1.x. This protocol is identified by the token fipa-contract-net as the value of the protocol parameter of the ACL message.
+# jade_tst

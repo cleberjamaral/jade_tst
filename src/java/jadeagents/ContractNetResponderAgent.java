@@ -100,6 +100,21 @@ public class ContractNetResponderAgent extends Agent {
 				System.out.println("Agent " + getLocalName() + ": Proposal rejected");
 			}
 		});
+		DFAgentDescription dfd;
+
+		// Register the vehicle-transporting service in the yellow pages
+		dfd = new DFAgentDescription();
+		dfd.setName(getAID());
+		ServiceDescription sd = new ServiceDescription();
+		sd.setName("Transport Of Items");
+		sd.setType("Transport");
+		dfd.addServices(sd);
+		try {
+			DFService.register(this, dfd);
+		} catch (FIPAException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 		ParallelBehaviour PB = new ParallelBehaviour();
 
